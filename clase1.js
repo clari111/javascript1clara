@@ -7,8 +7,13 @@ let numeroResta = 50 - 30
 let numeroMultiplicacion = 30 * 7
 let numeroDivision = 70 / 4
 
-alert(numerosSuma)
-alert(numeroMultiplicacion)
-alert(numeroDivision)
-alert(numeroResta)
+alert('el resultado de la suma es '+ (numerosSuma))
+alert('el resultado de la multiplicacion es ' + (numeroMultiplicacion))
+alert('el resultado de la division ' + (numeroDivision))
+alert('el resultado de la resta es ' + (numeroResta))
 
+alert('mi edad es:' + (2023-2009))
+
+let nombreAlumno
+nombreAlumno = prompt('Ingresa tu nombre')
+alert('Bienvenido ' + nombreAlumno)
